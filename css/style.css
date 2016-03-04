@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'bitter';
+    src: url('fonts/bitter/Bitter-Regular.eot');
+    src: url('fonts/bitter/Bitter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/bitter/Bitter-Regular.woff2') format('woff2'),
+    url('fonts/bitter/Bitter-Regular.woff') format('woff'),
+    url('fonts/bitter/Bitter-Regular.ttf') format('truetype'),
+    url('fonts/bitter/Bitter-Regular.svg#bitter') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'bitter', sans-serif;
+    display: table;
+    overflow: hidden;
+}
+.develop-text {
+    font-size: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 10%;
+    transition: all 1000ms ease;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQI12P4DwABAQEAG7buVgAAAABJRU5ErkJggg==);
+    background-size: 100% 100%;
+    letter-spacing: 0.04em;
+}
