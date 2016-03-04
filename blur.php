@@ -13,7 +13,7 @@ if ($height <= 0 || $height > 1080) {
 
 $image = new \Imagick();
 $image->newPseudoImage($width, $height, "plasma:fractal");
-$image->blurImage(0,100);
+//$image->blurImage(0,100);
 $image->setImageFormat("png");
 header("Content-Type: image/png");
 echo $image->getImageBlob();

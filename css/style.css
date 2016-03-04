@@ -33,7 +33,10 @@ body {
     text-align: center;
     padding: 0 10%;
     transition: all 1000ms ease;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQI12P4DwABAQEAG7buVgAAAABJRU5ErkJggg==);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR42mNgAAIAAAUAAen63NgAAAAASUVORK5CYII=);
+    background-color: #FDFD96;
     background-size: 100% 100%;
     letter-spacing: 0.04em;
+    text-shadow: #000 0 0 1px;
+    color: #fff
 }
