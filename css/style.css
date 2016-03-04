@@ -34,9 +34,34 @@ body {
     padding: 0 10%;
     transition: all 1000ms ease;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR42mNgAAIAAAUAAen63NgAAAAASUVORK5CYII=);
-    background-color: #FDFD96;
+    background-color: #f99;
     background-size: 100% 100%;
+    animation: change-color 20s infinite linear;
     letter-spacing: 0.04em;
     text-shadow: #000 0 0 1px;
     color: #fff
+}
+
+@keyframes change-color {
+    0% {
+        background-color: #f99;
+    }
+    14.29% {
+        background-color: #fc6;
+    }
+    28.57% {
+        background-color: #ff9;
+    }
+    42.86% {
+        background-color: #9f9;
+    }
+    57.14% {
+        background-color: #cff;
+    }
+    71.43% {
+        background-color: #ccf;
+    }
+    85.71% {
+        background-color: #fcf;
+    }
 }
