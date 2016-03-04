@@ -44,24 +44,24 @@ body {
 
 @keyframes change-color {
     0% {
-        background-color: #f99;
-    }
-    14.29% {
-        background-color: #fc6;
-    }
-    28.57% {
         background-color: #ff9;
     }
-    42.86% {
+    14.29% {
         background-color: #9f9;
     }
-    57.14% {
+    28.57% {
         background-color: #cff;
     }
-    71.43% {
+    42.86% {
         background-color: #ccf;
     }
-    85.71% {
+    57.14% {
         background-color: #fcf;
+    }
+    71.43% {
+        background-color: #f99;
+    }
+    85.71% {
+        background-color: #fc6;
     }
 }
